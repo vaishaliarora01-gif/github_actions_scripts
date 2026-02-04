@@ -1,0 +1,4 @@
+name: first running script
+on: push
+jobs:
+  
