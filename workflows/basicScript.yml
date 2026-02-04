@@ -1,0 +1,7 @@
+name: first basic script
+on: push
+jobs:
+  firstJob:
+     runs-on: ubuntu-latest
+     steps:
+       - run: echo "Hello How are you"
