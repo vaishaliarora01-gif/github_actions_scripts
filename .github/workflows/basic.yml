@@ -1,4 +1,7 @@
 name: first running script
 on: push
 jobs:
-  
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - runs echo "hello world"
