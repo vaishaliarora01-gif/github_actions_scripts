@@ -1,0 +1,2 @@
+name: first ci pipeline for variables
+on: push   
