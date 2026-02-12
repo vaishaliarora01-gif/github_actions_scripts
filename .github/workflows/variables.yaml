@@ -1,5 +1,6 @@
 name: first pipeline for varaibles
 on: push
+  workflow_dispatch:
 jobs:
   first:
     runs-on: ubuntu-latest
