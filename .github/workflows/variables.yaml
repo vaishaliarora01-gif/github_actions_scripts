@@ -4,4 +4,4 @@ jobs:
   first:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "hello world , ${var.ENV}"
+      - run: echo "hello world , ${vars.ENV}"
