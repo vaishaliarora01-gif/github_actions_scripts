@@ -1,5 +1,5 @@
 name: first pipeline for varaibles
-on: push
+on: 
   workflow_dispatch:
 jobs:
   first:
