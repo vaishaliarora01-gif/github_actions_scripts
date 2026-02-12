@@ -1,2 +1,7 @@
-name: first ci pipeline for variables
-on: push   
+name: first pipeline for varaibles
+on: push
+jobs:
+  first:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "hello world"
